@@ -1,0 +1,87 @@
+#visaLogo {
+    display: none;
+}
+#errorMessage {
+    border: 2px solid red;
+    color: red;
+    display: block;
+    padding: 5px;
+    display: none;
+    margin-top: 6px;
+}
+table {
+    width: 100%;
+}
+th,
+td {
+    padding: 1rem;
+    text-align: center;
+}
+thead {
+    background-color: #f1f1f1;
+}
+.today {
+    font-weigth: 700;
+    background-color: yellow;
+}
+
+img{
+  display: inline-block;
+  position: absolute;
+  height: 28px;
+/*		  width: 41px;*/
+  bottom: 19px;
+  right: 19px;
+}
+
+form label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+form input[type="text"] {
+    display: block;
+    height: 36px;
+    margin-bottom: 8px;
+    padding: 0 36px 0 10px;
+    border: 2px solid #cccccc;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+form ul.helper-text {
+    display: block;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #808080;
+}
+form ul.helper-text li.valid {
+    display: none;
+    color: #1fd34a;
+}
+form.valid input {
+    border: 2px solid #1fd34a;
+}
+#passStrBg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: darkgrey;
+}
+#password_strength {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: block;
+    width: 0%;
+    height: 10px;
+    background-color: #1fd34a;
+}
+#error-nwl {
+    display: block;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
